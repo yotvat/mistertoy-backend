@@ -1,7 +1,7 @@
 [
   {
     "name": "Barbie",
-    "price": 200,
+    "price": 300,
     "labels": [
       "Art",
       "Baby"
@@ -9,17 +9,6 @@
     "inStock": true,
     "createdAt": 1710791911475,
     "_id": "JHUco"
-  },
-  {
-    "name": "Darth Vader",
-    "price": 400,
-    "labels": [
-      "Battery Powered",
-      "Box game"
-    ],
-    "inStock": true,
-    "createdAt": 1709482930746,
-    "_id": "gnMEj"
   },
   {
     "_id": "118072",
@@ -45,5 +34,16 @@
     ],
     "createdAt": 1709030649359,
     "inStock": false
+  },
+  {
+    "name": "Darth Vader",
+    "price": 400,
+    "labels": [
+      "Battery Powered",
+      "Box game"
+    ],
+    "inStock": true,
+    "createdAt": 1709482930746,
+    "_id": "gnMEj"
   }
 ]
