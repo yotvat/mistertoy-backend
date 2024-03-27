@@ -26,26 +26,11 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.get('/api/toy', (req, res) => {
-    console.log(req.query)
 
-    const { filterBy, sortBy } = req.query.params
-    
-
-    // const filterBy = {
-    //     txt: filterBy.txt || '',
-    //     maxPrice: filterBy.maxPrice || '',
-    //     inStock: filterBy.inStock || 'all'
-    // }
-    // const sortBy = {
-    //     name: sortBy.name || 1,
-    //     created:sortBy.created
-    // }
-
-
-    // const { filterBy = {}, sortBy = {} } = req.query.params
-
-    // const { filterBy } = req.query.params || {}
-    // const { sortBy } = req.query.params || {}
+    // const { filterBy, sortBy } = req.query
+    const filterBy = req.query.params.filterBy
+    const sortBy = req.query.params.sortBy
+    console.log(filterBy)
 
     toyService.query(filterBy, sortBy)
         .then(toys => {

@@ -12,14 +12,14 @@ export const toyService = {
 
 function query(filterBy, sortBy) {
 
-    console.log('filterBy', filterBy)
+    // console.log('filterBy', filterBy)
     // no need - 
-    if (!filterBy && !sort) return Promise.resolve(toys)
+    if (!filterBy && !sortBy) return Promise.resolve(toys)
 
     let toysToReturn = toys
-    if (filterBy.name) {
+    if (filterBy.txt) {
 
-        const regExp = new RegExp(filterBy.name, 'i')
+        const regExp = new RegExp(filterBy.txt, 'i')
         toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
     }
 
