@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Barbie",
+    "price": 200,
+    "labels": [
+      "Art",
+      "Baby"
+    ],
+    "inStock": true,
+    "createdAt": 1710791911475,
+    "_id": "JHUco"
+  },
+  {
+    "name": "Darth Vader",
+    "price": 400,
+    "labels": [
+      "Battery Powered",
+      "Box game"
+    ],
+    "inStock": true,
+    "createdAt": 1709482930746,
+    "_id": "gnMEj"
+  },
+  {
+    "_id": "118072",
+    "name": "batman",
+    "price": 18,
+    "labels": [
+      "On wheels",
+      "Outdoor",
+      "Battery Powered",
+      "Box game"
+    ],
+    "createdAt": 1705088321329,
+    "inStock": true
+  },
+  {
+    "_id": "118073",
+    "name": "BuzzLightYear",
+    "price": 27,
+    "labels": [
+      "Art",
+      "Doll",
+      "Baby"
+    ],
+    "createdAt": 1709030649359,
+    "inStock": false
+  }
+]
