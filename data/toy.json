@@ -45,5 +45,60 @@
     "inStock": true,
     "createdAt": 1709482930746,
     "_id": "gnMEj"
+  },
+  {
+    "name": "Cat in the hat",
+    "price": 430,
+    "labels": [
+      "Baby",
+      "Box game"
+    ],
+    "inStock": false,
+    "createdAt": 1709322930746,
+    "_id": "gnndj"
+  },
+  {
+    "name": "Uncle Sam",
+    "price": 120,
+    "labels": [
+      "Art",
+      "Doll"
+    ],
+    "inStock": true,
+    "createdAt": 1709482952746,
+    "_id": "10MEj"
+  },
+  {
+    "name": "Billie Jean",
+    "price": 320,
+    "labels": [
+      "Battery Powered",
+      "Box game"
+    ],
+    "inStock": false,
+    "createdAt": 1609482930746,
+    "_id": "gn2jx"
+  },
+  {
+    "name": "Bugs Bunny",
+    "price": 999,
+    "labels": [
+      "Doll",
+      "Outdoor"
+    ],
+    "inStock": true,
+    "createdAt": 1709477930746,
+    "_id": "gf6ov"
+  },
+  {
+    "name": "Teddy Bear",
+    "price": 100,
+    "labels": [
+      "On wheels",
+      "Art"
+    ],
+    "inStock": false,
+    "createdAt": 1799482930746,
+    "_id": "1odh7"
   }
 ]
